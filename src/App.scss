@@ -1,0 +1,38 @@
+@import "node_modules/vanilla-framework/scss/vanilla";
+
+@include vanilla;
+@include vf-p-card;
+
+#root {
+  margin-top: 2rem;
+}
+.p-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0;
+  border-top: 3px solid #a87ca0;
+  box-shadow: 0px 1px 7px 2px #d9d9d9;
+}
+.p-card__title {
+  border-radius: 2px;
+  padding: 1rem 1rem 0.5rem;
+}
+
+.p-card__content {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  border-top: 1px dotted #d9d9d9;
+  height: 100%;
+  margin: 0 0.5rem;
+  padding: 1rem 0.5rem 0.5rem;
+}
+.footer {
+  border-top: 1px dotted #d9d9d9;
+  font-size: 0.875rem;
+  margin: auto 0.5rem 0;
+  max-width: inherit;
+  padding: 1rem 0.5rem;
+}
