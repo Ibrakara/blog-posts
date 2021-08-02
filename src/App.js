@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CardComp from "./components/CardComp";
-import { Col, Row } from "@canonical/react-components";
+import { Row } from "@canonical/react-components";
 import "./App.scss";
 
 function App() {
